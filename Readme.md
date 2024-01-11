@@ -1,6 +1,6 @@
 # Profisolv eshop
 
-Simple eshop, output of a Chad Darby's Udemy Spring Boot training
+Simple eshop application
 
 ## Technologies
 
