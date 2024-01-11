@@ -1,6 +1,6 @@
 package com.profisolv.eshop.model;
 
-public class ProductDTO {
+public class ProductDto {
 
     private String name;
     private String description;
@@ -9,7 +9,7 @@ public class ProductDTO {
     private Long stock;
     private Long id;
 
-    public ProductDTO(String name, String description, String image, Long price, Long stock, Long id) {
+    public ProductDto(String name, String description, String image, Long price, Long stock, Long id) {
         this.name = name;
         this.description = description;
         this.image = image;
