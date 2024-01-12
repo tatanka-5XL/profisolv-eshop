@@ -3,15 +3,13 @@ package com.profisolv.eshop.rest;
 import com.profisolv.eshop.model.ProductDto;
 import com.profisolv.eshop.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
 
 @RestController
-@RequestMapping("api/v1/product")
+@RequestMapping("api/v1/products")
+@CrossOrigin("http://localhost:3000")
 public class ProductController {
     private final ProductService productService;
 
