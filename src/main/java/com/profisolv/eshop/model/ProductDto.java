@@ -1,5 +1,12 @@
 package com.profisolv.eshop.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
 public class ProductDto {
 
     private String name;
@@ -9,37 +16,5 @@ public class ProductDto {
     private Long stock;
     private Long id;
 
-    public ProductDto(String name, String description, String image, Long price, Long stock, Long id) {
-        this.name = name;
-        this.description = description;
-        this.image = image;
-        this.price = price;
-        this.stock = stock;
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public String getImage() {
-        return image;
-    }
-
-    public Long getPrice() {
-        return price;
-    }
-
-    public Long getStock() {
-        return stock;
-    }
-
-    public Long getId() {
-        return id;
-    }
 }
 
